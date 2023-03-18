@@ -1,0 +1,42 @@
+.nav-link {
+    border-bottom: 1px solid #000;
+    margin: 10px 15px;
+}
+
+.bg {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(100,100,100,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section {
+    position: relative;
+    z-index: 2;
+}
+
+.icon-seta {
+    font-size: 25px;
+}
+
+.icon-section {
+    font-size: 25px;
+}
+
+.input-lista {
+    height: 30px;
+}
